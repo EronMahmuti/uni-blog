@@ -6,4 +6,8 @@ function blog_files(){
 
 add_action('wp_enqueue_scripts', 'blog_files');
 
+//get down with this theme as soon as posible
+
+
 ?>
+
