@@ -858,7 +858,7 @@ body.login {
   padding: 10px 20px;
   color: #fff;
   text-decoration: none;
-  font-weight: 300;
+  font-weight: 600;
 }
 @media (min-width: 960px) {
   .main-navigation a {
