@@ -26,7 +26,6 @@
             </a>
             <div class="event-summary__content">
               <h5 class="event-summary__title headline headline--tiny"><a href="#">Takim ne Gjermani</a></h5>
-              <p>Bring poems you&rsquo;ve wrote to the 100 building this Tuesday for an open mic and snacks. </p>
             </div>
           </div>
           <div class="event-summary">
@@ -36,7 +35,6 @@
             </a>
             <div class="event-summary__content">
               <h5 class="event-summary__title headline headline--tiny"><a href="#">Takim ne Zvicer</a></h5>
-              <p>Live music, a taco truck and more can found in our third annual quad picnic day. </p>
             </div>
           </div>
 
@@ -52,8 +50,7 @@
               <span class="event-summary__day">20</span>
             </a>
             <div class="event-summary__content">
-              <h5 class="event-summary__title headline headline--tiny"><a href="#">We Were Voted Best School</a></h5>
-              <p>For the 100th year in a row we are voted #1. <a href="#" class="nu gray">Read more</a></p>
+              <h5 class="event-summary__title headline headline--tiny"><a href="#"> <?php echo get_the_title(); ?> </a></h5>
             </div>
           </div>
           <div class="event-summary">
@@ -62,8 +59,7 @@
               <span class="event-summary__day">04</span>
             </a>
             <div class="event-summary__content">
-              <h5 class="event-summary__title headline headline--tiny"><a href="#">Professors in the National Spotlight</a></h5>
-              <p>Two of our professors have been in national news lately. <a href="#" class="nu gray">Read more</a></p>
+              <h5 class="event-summary__title headline headline--tiny"><a href="#"> <?php  the_title(); ?> </a></h5>
             </div>
           </div>
         </div>
@@ -78,7 +74,7 @@
               <div class="hero-slider__overlay">
                 <h2 class="headline headline--medium t-center">Reth Lobit</h2>
                 <p class="t-center">Platformë mbarë kombëtare për një Mërgatë Shqiptare të fuqishme e të bashkuar.</p>
-                <p class="t-center no-margin"><a href="#" class="btn btn--blue">Learn more</a></p>
+                <p class="t-center no-margin"><a href="#" class="btn btn--blue">Lexo më shumë</a></p>
               </div>
             </div>
           </div>
@@ -87,7 +83,7 @@
               <div class="hero-slider__overlay">
                 <h2 class="headline headline--medium t-center">Kryesia e Lobit</h2>
                 <p class="t-center">Lobi Shqiptar ka kryetaret e saj ne çdo Shtet.</p>
-                <p class="t-center no-margin"><a href="#" class="btn btn--blue">Learn more</a></p>
+                <p class="t-center no-margin"><a href="#" class="btn btn--blue">Lexo më shumë</a></p>
               </div>
             </div>
           </div>
@@ -96,7 +92,7 @@
               <div class="hero-slider__overlay">
                 <h2 class="headline headline--medium t-center">Qellimet e Lobit</h2>
                 <p class="t-center">Lobi ka per qellim ndihmen dhe afrimin e gjithe Shqiptareve anembane.</p>
-                <p class="t-center no-margin"><a href="#" class="btn btn--blue">Learn more</a></p>
+                <p class="t-center no-margin"><a href="#" class="btn btn--blue">Lexo më shumë</a></p>
               </div>
             </div>
           </div>

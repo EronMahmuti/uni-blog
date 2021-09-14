@@ -1,11 +1,13 @@
-.main-navigation a {
+
+  
+  
+  .main-navigation a {
     
     color: #f4f4f4;
   }
 
   .post-content{
       color: #222;
-      width: 80%;
       margin-left: 10%;
       margin-right: 10%;
       display: flex;
@@ -32,11 +34,36 @@
   }
   /* style added features of all pages  */
 
-
-
+  .site-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 8px;
+    padding-right: 28px;
+    margin-top: 3rem;
+  }
+    .logo-footer img{
+      width: 10.6em;
+      height: 5.8em;
+      margin: 10px;
+  }
+  .copyright{
+    text-align: center;
+  }
+  .footer{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+  }
+  .floww{
+      display: flex;
+      flex-direction: row;
+      width: 80%;
+      margin-right: 10%;
+      margin-left: 10%;
+      justify-content: space-between;
+  }
   
-
-
 
 
 
