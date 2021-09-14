@@ -1,12 +1,35 @@
 .main-navigation a {
     
-    color: #fff;
+    color: #f4f4f4;
   }
 
   .post-content{
-      color: green;
+      color: #222;
+      width: 80%;
+      margin-left: 10%;
+      margin-right: 10%;
+      display: flex;
+      flex-direction: column;
+      overflow:visible;
+      text-align: center;
   }
 
+  .post-content p{
+      text-align: left;
+      padding: 10px;
+      
+      word-wrap:break-word;
+  }
+  .btn--blue{
+      background-color: #222;
+  }
+  .btn--blue:hover{
+    background: rgb(235, 11, 11);
+  }
+
+  .metabox__blog-home-link{
+      background-color: #222;
+  }
   /* style added features of all pages  */
 
 
