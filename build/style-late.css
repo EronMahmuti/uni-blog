@@ -52,7 +52,6 @@
 
   .containeri{
     display: flex;
-    background-color: #222;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
@@ -63,10 +62,9 @@
   .grid-main{
     display: flex;
     flex-direction:row;
-    background-color: green;
     width: 48%;
-    border:2px solid blue;
-    margin:5px;
+    margin:5px;    
+    
   }
   .grid-main img{
     width:166px; 
@@ -114,7 +112,6 @@
     
   .containeri{
     display: flex;
-    background-color: #222;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
@@ -125,9 +122,7 @@
   .grid-main{
     display: flex;
     flex-direction:row;
-    background-color: green;
     width: 94%;
-    border:2px solid blue;
     margin:5px;
   }
 

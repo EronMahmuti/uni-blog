@@ -1,6 +1,6 @@
 
 
-<div class="grid-main" >
+<div class="grid-main"  style="" >
 
     <img class="" src="<?php  the_post_thumbnail_url('thumbnail');  ?>" alt="image" >
     <div class="grid-sec" >

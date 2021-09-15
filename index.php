@@ -42,7 +42,7 @@
       </div>
       <div class="full-width-split__two">
         <div class="full-width-split__inner">
-          <h2 class="headline headline--small-plus t-center">Postimet e fundit</h2>
+          <h2 class="headline headline--small-plus t-center">Takimet e fundit</h2>
 
           <div class="event-summary">
             <a class="event-summary__date event-summary__date--beige t-center" href="#">
@@ -50,7 +50,7 @@
               <span class="event-summary__day">20</span>
             </a>
             <div class="event-summary__content">
-              <h5 class="event-summary__title headline headline--tiny"><a href="#"> <?php echo get_the_title(); ?> </a></h5>
+              <h5 class="event-summary__title headline headline--tiny"><a href="#"> Takimet me zyrtare te larte </a></h5>
             </div>
           </div>
           <div class="event-summary">
@@ -59,7 +59,7 @@
               <span class="event-summary__day">04</span>
             </a>
             <div class="event-summary__content">
-              <h5 class="event-summary__title headline headline--tiny"><a href="#"> <?php  the_title(); ?> </a></h5>
+              <h5 class="event-summary__title headline headline--tiny"><a href="#"> Takimet me perfaqsues te miqesis Shqiptaro-Gjermane</a></h5>
             </div>
           </div>
         </div>
