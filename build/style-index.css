@@ -759,6 +759,7 @@ body.login {
 .site-footer p {
   font-size: 0.9rem;
 }
+
 .site-footer .headline {
   color: #666;
   margin-bottom: 0.33rem;
@@ -936,7 +937,7 @@ body.login {
   }
 }
 .hero-slider__slide {
-  background-size: cover;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
 }
 .hero-slider__overlay {

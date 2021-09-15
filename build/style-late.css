@@ -37,36 +37,101 @@
   .site-footer{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     padding-left: 8px;
     padding-right: 28px;
     margin-top: 3rem;
   }
     .logo-footer img{
-      width: 10.6em;
-      height: 5.8em;
+      width: 12.6em;
+      height: 7.8em;
       margin: 10px;
   }
-  .copyright{
+
+
+
+  .containeri{
+    display: flex;
+    background-color: #222;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .grid-main{
+    display: flex;
+    flex-direction:row;
+    background-color: green;
+    width: 48%;
+    border:2px solid blue;
+    margin:5px;
+  }
+  .grid-main img{
+    width:166px; 
+    height:141px;
+    border-radius: 4px;
+  }
+  .under-slider{
     text-align: center;
   }
-  .footer{
+  .under-slider h5{
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Roboto Condensed", sans-serif;
+  }
+  h6.postTitle{
+    padding: 5px;
+    padding-left: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Roboto Condensed", sans-serif;
+    margin: 4px 2px 2px 4px;
+  }
+  .grid-sec{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: left;
+  }
+  .grid-sec p{
+    padding-left: 13px;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: "Roboto Condensed", sans-serif;
+  }
+  @media (max-width: 600px) {
+    .site-footer{
       display: flex;
       flex-direction: column;
       justify-content: center;
+      padding-left: 8px;
+      padding-right: 28px;
+      margin-top: 3rem;
+      align-items: center;
+    }
+    
+  .containeri{
+    display: flex;
+    background-color: #222;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 95%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
   }
-  .floww{
-      display: flex;
-      flex-direction: row;
-      width: 80%;
-      margin-right: 10%;
-      margin-left: 10%;
-      justify-content: space-between;
+  .grid-main{
+    display: flex;
+    flex-direction:row;
+    background-color: green;
+    width: 94%;
+    border:2px solid blue;
+    margin:5px;
   }
-  
 
-
-
+  }
 
 
 

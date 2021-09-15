@@ -100,9 +100,21 @@
         <div class="slider__bullets glide__bullets" data-glide-el="controls[nav]"></div>
       </div>
     </div>
+    <div class="under-slider">
+            <h5> në fokus </h5>
+            <div class="containeri">
+            <?php 
+                  if(have_posts()){
+                      while(have_posts()){
+                        get_template_part( '/content');
+                      }
+                  }
+                ?>
 
-    <?php
+            </div>
+    </div>
+<?php
 
-    get_footer();
+get_footer();
 
 ?>
