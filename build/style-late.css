@@ -67,7 +67,8 @@
     
   }
   .grid-main img{
-    width:166px; 
+    min-width:166px; 
+    max-width: 167px;
     height:141px;
     border-radius: 4px;
   }
@@ -99,6 +100,9 @@
     font-weight: 500;
     font-family: "Roboto Condensed", sans-serif;
   }
+
+  
+
   @media (max-width: 600px) {
     .site-footer{
       display: flex;

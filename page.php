@@ -25,19 +25,7 @@
         </p>
       </div>
 
-      <div class="under-slider">
-            <h5> në fokus </h5>
-            <div class="containeri">
-            <?php 
-                  if(have_posts()){
-                      while(have_posts()){
-                        get_template_part( '/content');
-                      }
-                  }
-                ?>
-
-            </div>
-    </div>
+     
 
       <!-- <div class="page-links">
         <h2 class="page-links__title"><a href="#">About Us</a></h2>
