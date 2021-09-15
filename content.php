@@ -3,7 +3,7 @@
 <div class="grid-main"  style="" >
 
     <img class="" src="<?php  the_post_thumbnail_url('thumbnail');  ?>" alt="image" >
-    <div class="grid-sec" >
+    <div class="grid-sec">
         <h6 class="postTitle" >
             <a href=" <?php the_permalink(); ?>" > 
         <?php  
