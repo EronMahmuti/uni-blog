@@ -43,7 +43,6 @@
       <div class="full-width-split__two">
         <div class="full-width-split__inner">
           <h2 class="headline headline--small-plus t-center">Takimet e fundit</h2>
-
           <div class="event-summary">
             <a class="event-summary__date event-summary__date--beige t-center" href="#">
               <span class="event-summary__month">Jan</span>
@@ -105,8 +104,10 @@
             <div class="containeri">
             <?php 
                   if(have_posts()){
-                      while(have_posts()){
+                    $x = 1;
+                      while(have_posts() && $x <= 6){
                         get_template_part('/content','article');
+                        $x++;
                       }
                   }
                 ?>
@@ -118,3 +119,5 @@
 get_footer();
 
 ?>
+
+

@@ -25,6 +25,8 @@
         </p>
       </div>
 
+      
+
      
 
       <!-- <div class="page-links">
@@ -36,10 +38,31 @@
       </div> -->
 
       <div class="generic-content">
-          <?php  the_content(); ?>
+          <?php  the_content(); 
+            
+          ?>
       </div>
     </div>
-
+    <div class="under-slider">
+            <h5> në fokus </h5>
+    <div class="containeri">
+    <?php
+    $recent_posts = wp_get_recent_posts(array(
+        'numberposts' => 4, // Number of recent posts thumbnails to display
+        'post_status' => 'publish' // Show only the published posts
+    ));
+    foreach( $recent_posts as $post_item ) : ?>
+        <div class="grid-main">
+            <a href="<?php echo get_permalink($post_item['ID']) ?>">
+                <div class="grid-sec">
+                    <?php echo get_the_post_thumbnail($post_item['ID'], 'full'); ?>
+                </div> 
+              </a>
+              <a href="<?php echo get_permalink($post_item['ID']) ?>"> <h6 class="postTitle" ><?php echo $post_item['post_title'] ?></h6></a>
+          </div>
+    <?php endforeach; ?>
+    </div>
+    </div>
     
         <?php }
 

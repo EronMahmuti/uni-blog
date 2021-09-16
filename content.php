@@ -1,6 +1,6 @@
 
 
-<div class="grid-main"  style="" >
+<div class="grid-main">
 
         <?php  
             the_post();

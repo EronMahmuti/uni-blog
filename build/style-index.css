@@ -665,7 +665,7 @@ body.login {
 .site-header__menu {
   visibility: hidden;
   position: absolute;
-  background-color: rgba(12, 56, 97, 0.89);
+  background-color: #111;
   left: 0;
   right: 0;
   top: -20px;
@@ -753,8 +753,10 @@ body.login {
   margin-right: 0;
 }
 .site-footer {
-  padding: 2rem 0 3.5rem 0;
+  padding: 2rem 3rem 3.5rem 1rem;
   background-image: linear-gradient(#fff, #ececec);
+  border-bottom: 2px solid rgba(153, 153, 153, 0.568);
+  border-top: 2px solid rgba(153, 153, 153, 0.568);
 }
 .site-footer p {
   font-size: 0.9rem;

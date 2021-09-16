@@ -32,6 +32,34 @@
   .metabox__blog-home-link{
       background-color: #222;
   }
+
+  .post-h2{
+    margin: 1.8rem 0rem;
+    padding-top: 2rem;
+    font-family: "Roboto", sans-serif;
+    font-size: 28px;
+    }
+    .post-para{
+      margin: 8px;
+      padding-top: 8px;
+      font-family: "Roboto", sans-serif;
+      font-weight: 500;
+      font-size: 17px;
+    }
+    .post-image{
+      width: 50%;
+      min-height: 180px;
+      max-height: 500px;
+      padding: 40px 20px;
+    }
+    
+  .post-items{
+    display: flex;
+    margin-top: 16px;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+  }
+
   /* style added features of all pages  */
 
   .site-footer{
@@ -40,15 +68,19 @@
     justify-content: space-around;
     padding-left: 8px;
     padding-right: 28px;
-    margin-top: 3rem;
+    padding-top: 3rem;
+    margin-top: 5rem;
   }
     .logo-footer img{
-      width: 12.6em;
-      height: 7.8em;
+      width: 15.6em;
+      height: 8.8em;
       margin: 10px;
   }
 
 
+a{
+  text-decoration: none;
+}
 
   .containeri{
     display: flex;
@@ -73,11 +105,15 @@
     border-radius: 4px;
   }
   .under-slider{
-    text-align: center;
+    text-align: left;
   }
   .under-slider h5{
-    font-size: 18px;
+    font-size: 19px;
     font-weight: 600;
+    width: 90%;
+    padding-top: 2rem;
+    border-bottom: 1px solid rgba(136, 136, 136, 0.651);
+    margin-left: 6.5%;
     font-family: "Roboto Condensed", sans-serif;
   }
   h6.postTitle{
@@ -101,19 +137,32 @@
     font-family: "Roboto Condensed", sans-serif;
   }
 
+  .slider-class{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .thumbi{
+    width: 100px;
+  }
   
+
+
 
   @media (max-width: 600px) {
     .site-footer{
       display: flex;
       flex-direction: column;
       justify-content: center;
-      padding-left: 8px;
-      padding-right: 28px;
-      margin-top: 3rem;
+      margin-top: 0.1rem;
       align-items: center;
+      padding: 0;
+      padding-bottom: 0.5rem;
     }
-    
+
+    .logo-footer img{
+      margin: 0px;
+  }
   .containeri{
     display: flex;
     flex-direction: column;
@@ -128,6 +177,26 @@
     flex-direction:row;
     width: 94%;
     margin:5px;
+  }
+
+  .post-image{
+    width: 100%; 
+    margin: 0;
+    padding:0;
+  }
+    
+  .post-items{
+    display: flex;
+    margin-top: 16px;
+    flex-direction: column-reverse;
+    background: forestgreen;
+    justify-content: center;
+  }
+
+  .under-slider h5{
+    font-size: 19px;
+    width: 95%;
+    margin-left: 4%;
   }
 
   }

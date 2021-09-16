@@ -31,7 +31,7 @@
             </nav>
           </div>
     </footer>
-    <p style="text-align:center; font-size:1.2rem; margin-top:0.8rem;" class="headline--small"> Të gjitha të drejtat janë të rezervuara © 2021 Lobi </p>
+    <p style="text-align:center; font-size:0.9rem; margin-top:0.2rem; margin-bottom:0;padding-bottom:0; border-bottom:1px solid #333;" class="headline--small"> Të gjitha të drejtat janë të rezervuara © 2021 Lobi </p>
 
 
 
