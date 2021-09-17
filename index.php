@@ -7,10 +7,10 @@
     <div class="page-banner">
       <div class="page-banner__bg-image" style="background-image: url(<?php echo get_theme_file_uri('/images/flamurii.jpg') ?>)"></div>
       <div class="page-banner__content container t-center c-white">
-        <h1 class="headline headline--large">Miresevini!</h1>
-        <h2 class="headline headline--medium">Vendtakimi i Shqiptareve</h2>
-        <h3 class="headline headline--small">Atë që dëshironi ta bëni të vetëm, ejani ju lutëm që ta bëjmë sëbashku</h3>
-        <a href="#" class="btn btn--large btn--blue">Shiko Takimet</a>
+        <h1 class="headline headline--large">Mirësevini</h1>
+        <h2 class="headline headline--medium">  LOBI EURO-ATLANTIK SHQIPTAR </h2>
+        <h3 class="headline headline--small"> Atë që dëshironi ta bëni të vetëm, ejani ju lutëm që ta bëjmë sëbashku  </h3>
+        <a href="<?php echo site_url('/kryesia') ?>" class="btn btn--large btn--blue">LEASH</a>
       </div>
     </div>
 
