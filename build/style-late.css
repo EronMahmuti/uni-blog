@@ -175,16 +175,15 @@ a{
     display: flex;
     flex-direction:row;
     width: 94%;
-    margin:5px;
-
-    
-    
+    margin:5px;   
   }
 
   .post-image{
     width: 100%; 
     margin: 0;
     padding:0;
+
+    
   }
     
   .post-items{
