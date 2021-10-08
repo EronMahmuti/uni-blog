@@ -173,6 +173,8 @@ a{
   }
   .grid-main{
     display: flex;
+
+    
     flex-direction:row;
     width: 94%;
     margin:5px;   
