@@ -172,11 +172,9 @@ a{
     margin-right: 2.5%;
   }
   .grid-main{
-    display: flex;
-
-    
+    display: flex;    
     flex-direction:row;
-    width: 94%;
+    width: 94.3%;
     margin:5px;   
   }
 
